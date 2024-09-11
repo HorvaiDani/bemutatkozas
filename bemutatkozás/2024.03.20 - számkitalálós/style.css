@@ -1,0 +1,9 @@
+img{
+    height: 200px;
+    position: relative;
+    left: 700px;
+    top: -150px;
+}
+#vissza{
+    cursor: pointer;
+}

@@ -1,0 +1,97 @@
+table, td, th, tr{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+th, td{
+    height: 30px;
+    width: 200px;
+    text-align: center;
+}
+
+img{
+    height: 300px;
+    position: relative;
+    left: 400px;
+    top: -230px;
+    border-radius: 10%;
+
+}
+
+#adat{
+    position: relative;
+    left: 450px;
+}
+
+table{
+    position: relative;
+    top: 20px;
+    left: -50px;
+    background-color: darkorange;
+    font-size: 18px;
+}
+th{
+    background-color: forestgreen;
+}
+#input{
+    position: absolute;
+    top: 290px;
+    left: 10px;
+    font-size: 18px;
+}
+#cs-mag, #cs-szel{
+    cursor: e-resize;
+    accent-color: yellow;
+}
+
+#nevek{
+    position: relative;
+    left: -50px;
+}
+#general{
+    height: 30px;
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-weight: 700;
+    line-height: 14px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+
+}
+#gomb-csik{
+    background-color:chartreuse;
+    height: 40px;
+}
+#karakter-lista{
+    background-color: aqua;
+    height: 30px;
+    position: relative;
+    top: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+body{
+    background-color: lightgray;
+}
+hr{
+    height: 5px;
+    background-color: red;
+}
+#vissza{
+    cursor: pointer;
+}

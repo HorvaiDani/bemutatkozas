@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #CAFFCA;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-color: #5763FF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+section {
+    opacity: 0;
+    padding: 20px;
+    transition: opacity 1s ease-in-out;
+}
+
+#rolam, #kepesseg, #elerhetoseg, #weboldalak {
+    background-color: white;
+    margin: 20px ;
+    width: 600px;
+    padding: 20px;
+    font-size: 16px;
+}
+#tartalom{
+    display: grid;
+    grid-template-areas: 
+    'rolam kepesseg elerhetoseg';
+}
+
+#rolam{
+    grid-area: rolam;
+}
+
+#kepesseg{
+    grid-area: kepesseg;
+}
+
+#elerhetoseg{
+    grid-area: elerhetoseg;
+}
+
+
+footer {
+    background-color: #5763FF;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#email, #telsz{
+    text-align: center;
+    background-color: #d8fa79;
+    color: black;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    width: 60%;
+}
+#kepesseg-p{
+    text-align: center;
+    background-color: #ff5f5f;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    width: 50%;
+}
+
+#h{
+    text-decoration: none;
+    color: black ;
+}
+
+#h:hover{
+    color: white;
+    background-color: grey;
+    text-decoration: underline;
+    transition: color 0.5s ease-in-out, background 0.5s ease-in-out;
+}
+
+img{
+    height: 100px;
+}
+
+#top{
+    display: grid;
+    grid-template-areas: 'szoveg kep';
+    gap: 10px;     
+}
+#szoveg{
+    grid-area: szoveg;
+    text-align: end;
+}
+#kep{
+    grid-area: kep;
+    text-align: left;
+}
+
+ul{
+    list-style-type:circle;
+}
+
+#web{
+    text-decoration: none;
+    color: black;
+}
+
+#web:hover{
+    text-decoration: underline;
+}
+#tanulo{
+    font-size: 17px;
+    font-weight: bold;
+}

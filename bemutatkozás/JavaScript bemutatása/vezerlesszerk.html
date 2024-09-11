@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="title.PNG"/>
+</head>
+<body>
+    <header>
+        <h1>JavaScript Ismertető</h1>
+    </header>
+    
+    <nav>
+        <a href="index.html">Nyelv Története</a>
+        <a href="valtozok.html">Változók</a>        
+        <a href="vezerlesszerk.html" id="tartold">Vezérlési Szerkezetek</a>
+        <a href="parancsok.html">Konkrét Parancsok</a>
+        <a href="velemeny.html">Saját Vélemény</a>
+    </nav>
+    <div id="container">
+        <section id="main">
+            <br><br><br><h2>Vezérlési szerkezetek</h2>
+            <p>Vezérlési szerkezetek azok az eszközök, amelyek irányítják a program futását. Ide tartozik a szekvencia, amely sorrendben hajtja végre az utasításokat, a szelekció, amely döntéseket hoz a feltételek alapján, és a ciklus, amely ismételten hajt végre utasításokat. Ezek a szerkezetek biztosítják a programok logikáját és működését.</p>
+            <p>Szelekcióra példa: itt bekér a gép most egy számot és aszerint hogy milyen számot adtál meg olyan döntést fog kiírni.</p><tag id="tag">Ide írd be a számot (1,2): </tag><input type="number" id="szel-szam"> <button id="szel-gomb">Megjelenítés</button><br>
+            <main id="szel-alap"></main><hr>
+            <p>Ciklusra példa: itt szintúgy be fog kérni a gép egy számot és ahányat beírsz annyiszor fogja kiírni egy rövid szöveget.</p><tag id="tag">Ide írj be egy számot (max 200): </tag><input type="number" id="szel-beker"> <button id="szel-gomb2">Kiiratás</button><br><br><main id="szel-alap2"></main>
+        </section>
+    </div>
+    <script src="vezerlesszerk.js"></script>
+</body>
+</html>
